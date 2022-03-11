@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    clear:both;
+    overflow:auto;
+  }
+
+nav{
+    float:right;
+}
+
+.logo img{
+    float:left;
+}
+
+ul li{
+  display: inline-block; 
+  padding:15px;
+  font-size:15px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+ul li:hover{
+  text-decoration: underline;
+  text-decoration-color: #FFC411;
+  cursor: pointer;
+  
+}
+
+.currentPage{
+    text-decoration: underline;
+    text-decoration-color: #FFC411;
+}
+
+.contentArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "composerFest critGroup projectProp";
+    padding-bottom: 20%;
+    padding-left: 2%;
+}
+#composerFest {
+    grid-area: composerFest;
+    padding-right: 50px;
+}
+
+.composerFestImage {
+    background-image: url('../Images/22CompFest\ .png');
+    height: 125%;
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+.critGroupImage {
+    background-image: url('../Images/critGroup.png');
+    height: 125%;
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+.projectPropImage {
+    background-image: url('../Images/projectProp.png');
+    height: 125%;
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+.composerFestImage:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+.critGroupImage:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+.projectPropImage:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+#critGroup {
+    grid-area: critGroup;
+    padding-right: 50px;
+}
+#projectProp {
+    grid-area: projectProp;
+}
+
+.content p {
+    width: 350px;
+    height: 50%;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFC411;
+    font-weight: 700;
+    border-radius: 4px;
+    border-color: #FFC411;
+    border-style: solid;
+    height: 40px;
+    width: 228px;
+}
+
+button:hover {
+box-shadow: 0px 4px 4px 0px gray;
+cursor: pointer;
+}
+
+.hero {
+    background-color: black;
+    margin: 0;
+    padding: 2%
+}
+
+.hero h1 {
+    color: #f2f2f2;
+}
+
+.hero h2 {
+    color: #f2f2f2;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.footer {
+    display: inline-block;
+    vertical-align: top;
+    background-color: black;
+    margin-right: 2%;
+    width: 100%;
+}
+
+.footer li {
+    color: #f2f2f2;
+    font-size: small;
+}
+
+.footerLogos {
+    float: right;
+    margin-right: 2%;
+}
+
+a {
+    color:#8CA5FF;
+    text-decoration: underline;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.footer nav{
+    float: left;
+}
+.footer li{
+    text-align: center;
+}
